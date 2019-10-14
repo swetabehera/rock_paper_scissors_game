@@ -10,8 +10,8 @@ for a in range(0, x):
     	computer = "rock"
     elif rand_num == 1:
     	computer = "paper"
-    else:
-	    computer = "scissors"
+    elif rand_num ==2 :
+	computer = "scissors"
 
     print(f"Computer plays {computer}")
 
